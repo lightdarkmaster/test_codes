@@ -22,7 +22,7 @@ public class guessthenumber {
                     System.out.println("Enter a number to be guess : ");
                     correct_answer = input.nextInt();
                 }
-            }while(correct_answer >10 || correct_answer < 1 );
+            }while(correct_answer > 10 || correct_answer < 1 );
 
 
             do{
