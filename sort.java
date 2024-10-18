@@ -5,6 +5,7 @@ public class sort{
         int myNum[] = {23,34,26,78,90,12,6,2,33,48};
 
         anotherSort(myNum);
+        //bubbleSort(myNum);
 
         for(int num : myNum){
             System.out.println(num + " ");
@@ -34,9 +35,8 @@ public class sort{
         }
     }
 
-
     public static void anotherSort(int[] array){
-        
+
         int length = array.length;
         boolean swap;
 
