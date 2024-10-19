@@ -10,6 +10,7 @@ public class myStringSortPackage {
             swappedString = false;
 
             for(int j = 0; j < stringLength - 1 - i; j++){
+                swappedString = false;
 
                 if(array[j].compareToIgnoreCase(array[j + 1]) > 0){
 
