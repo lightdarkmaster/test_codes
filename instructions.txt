@@ -1,6 +1,22 @@
 how to make your own java package.
 
-1. create a class in java
-2. run this code.
-3. javac com/example/mypackage/MyClass.java
-4. 
+1. Create your java package file
+2. Create your functions in that files
+3. Note it can be static or non-static
+4. compile your java package by running javac followed by the name of class
+    4.1.example javac package.java
+5. implement the functions in the java file you want to do the functions
+
+
+<<<<<<<<<<<<<<<<< Notes for my Codes >>>>>>>>>>>>>>>>>>>>>>>
+
+5.1 if I am using a non static function
+        System.out.println("When using Non-Static function from my package");
+        myStringSortPackage srt = new myStringSortPackage();
+        srt.stringSort(myNames);
+
+5.2 if I am using Static function from my package class
+        System.out.println("When I am using a Static function");
+        myStringSortPackage.sortStringDoWhile(myName1s);
+
+<<<<<<<<<<<<<<<<< Notes for my Codes >>>>>>>>>>>>>>>>>>>>>>>
