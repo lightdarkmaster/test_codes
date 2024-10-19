@@ -1,0 +1,6 @@
+how to make your own java package.
+
+1. create a class in java
+2. run this code.
+3. javac com/example/mypackage/MyClass.java
+4. 
