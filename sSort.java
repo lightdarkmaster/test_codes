@@ -9,6 +9,8 @@ public class sSort{
         for( int num : myNum){
             System.out.println(num + " ");
         }
+        
+        printName(null, 0);
     }
 
     public static void selectionSort(int[] array){
@@ -28,5 +30,13 @@ public class sSort{
             array[minimumIndex] = array[i];
             array[i] = temp;
         }
+    }
+
+    public static void printName(String fname, int age){
+        
+        fname = "Chan";
+        age = 25;
+
+        System.out.println(fname + age);
     }
 }
