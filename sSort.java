@@ -10,7 +10,11 @@ public class sSort{
             System.out.println(num + " ");
         }
         
-        printName(null, 0);
+        printName("Chan", 24);
+        printName("Christian", 25);
+        printName("Ricardo", 42);
+        printName("Christopher", 31);
+        
     }
 
     public static void selectionSort(int[] array){
@@ -33,10 +37,7 @@ public class sSort{
     }
 
     public static void printName(String fname, int age){
-        
-        fname = "Chan";
-        age = 25;
 
-        System.out.println(fname + age);
+        System.out.println(fname +" " + age);
     }
 }
