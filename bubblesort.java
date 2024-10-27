@@ -3,17 +3,16 @@ public class bubblesort {
        
         int[] myNum = {100, 220, 30, 140, 3, 28};
         
-        // Call bubbleSort method to sort the array
+     
         bubbleSort(myNum);
         
-        // Print the sorted array
+
         System.out.println("Sorted Array:");
         for (int num : myNum) {
             System.out.print(num + " ");
         }
     }
 
-    // Method to perform Bubble Sort
     public static void bubbleSort(int[] array) {
         int n = array.length;
         boolean swapped;
