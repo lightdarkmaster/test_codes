@@ -58,6 +58,8 @@ public class bSort {
 
         }while(swapped = false);
 
+        //number of nodes inside an arraylist
+
         System.out.println("number of arrays list : " + n);
     }
 }
