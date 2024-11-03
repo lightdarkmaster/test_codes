@@ -2,7 +2,7 @@ public class sortString {
 
     public static void main(String[] args) {
         
-        String[] names = {"Arnold", "Michael", "Aaron", "Zayn", "Gilbert", "XouYin", "Bert"};
+        String[] names = {"Arnold", "Michael", "Aaron", "Zayn", "Gilbert", "XouYin", "Bert","Zayne","Itachi"};
 
         // Call the sortName method to sort the array
         sortName(names);
