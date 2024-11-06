@@ -4,8 +4,8 @@ public class angle {
 
     public static void main(String[] args) {
 
-        //rightTriangle();
-        //leftTriangle();
+        rightTriangle();
+        leftTriangle();
         triangle();
 
     }
