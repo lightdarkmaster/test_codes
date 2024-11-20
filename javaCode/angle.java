@@ -4,9 +4,10 @@ public class angle {
 
     public static void main(String[] args) {
 
-        rightTriangle();
-        leftTriangle();
-        triangle();
+        //rightTriangle();
+       // leftTriangle();
+       // triangle();
+        square();
 
     }
 
@@ -60,6 +61,15 @@ public class angle {
             }
             // throws the cursor in a new line after printing each line
             System.out.println();
+        }
+    }
+
+    public static void square(){
+        
+        for(int i=0; i<=10; i++){
+            for(int j=0; j<=i;j++){
+                System.out.println("*");
+            }
         }
     }
 }
