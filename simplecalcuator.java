@@ -29,3 +29,5 @@ class simplecalcuator{
     
     }
 }
+
+//There are 4 basic operations in this program. The user is asked to enter two numbers and the program will calculate the sum, difference, product, and quotient of the two numbers. The program uses the Scanner class to get the input from the user. The program then calculates the sum, difference, product, and quotient of the two numbers and prints the results to the console.
