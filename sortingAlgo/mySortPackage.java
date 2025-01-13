@@ -1,3 +1,4 @@
+package sortingAlgo;
 public class  mySortPackage {
 
     public void myBubbleSort(int[] array){
