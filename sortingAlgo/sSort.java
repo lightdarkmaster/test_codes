@@ -1,3 +1,4 @@
+package sortingAlgo;
 public class sSort{
     
     public static void main(String[] args){

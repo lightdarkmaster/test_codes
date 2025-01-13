@@ -1,3 +1,4 @@
+package sortingAlgo;
 public class sortingProblem3 {
 
     public static void main(String[] args) {

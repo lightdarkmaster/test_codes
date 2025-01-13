@@ -1,3 +1,4 @@
+package sortingAlgo;
 public class myStringSortPackage {
     
     public void stringSort(String[] array){

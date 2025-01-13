@@ -1,3 +1,4 @@
+package javaCode;
 import java.util.Scanner;
 
 class simplecalcuator{
