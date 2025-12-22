@@ -51,4 +51,12 @@ public class myStringSortPackage {
 
         }while(swapped=false);
     }
+
+    public static void checkEvenNumbers(int num){
+        if(num%2){
+            System.out.println("Even");
+        }else{
+            System.out.println("Not Even");
+        }
+    }
 }
