@@ -53,7 +53,7 @@ public class myStringSortPackage {
     }
 
     public static void checkEvenNumbers(int num){
-        if(num%2){
+        if(num%2 == 0){
             System.out.println("Even");
         }else{
             System.out.println("Not Even");
