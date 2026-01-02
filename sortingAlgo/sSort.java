@@ -15,6 +15,8 @@ public class sSort{
         printName("Christian", 25);
         printName("Ricardo", 42);
         printName("Christopher", 31);
+        printName("Vanessa", 31);
+
         
     }
 
